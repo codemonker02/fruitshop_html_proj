@@ -1,0 +1,23 @@
+/* CSS for styling the table */
+.featured-products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.featured-products th, .featured-products td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.featured-products th {
+    background-color: #f2f2f2;
+}
+
+.featured-products tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.featured-products tr:hover {
+    background-color: #ddd;
+}
